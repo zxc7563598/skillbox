@@ -28,6 +28,7 @@ npx skills add zxc7563598/skillbox@<技能名称>
 |---------|-----------|---------|
 | [git-commit](skills/git-commit/) | 理解代码改动意图，生成规范化的 Git 提交信息 | `npx skills add zxc7563598/skillbox@git-commit` |
 | [analyze-bill](skills/analyze-bill/) | 解析微信/支付宝账单文件，对帐单内容进行多维度分析 | `npx skills add zxc7563598/skillbox@analyze-bill` |
+| [think-council](skills/think-council/) | 多角度讨论团，分析问题、深入讨论话题、验证想法、发现思维盲区、评估决策风险 | `npx skills add zxc7563598/skillbox@think-council` |
 | [mental-health-companion](skills/mental-health-companion/) | 温暖、非评判的 AI 心理陪伴与情绪疏导 | `npx skills add zxc7563598/skillbox@mental-health-companion` |
 
 > 后续新增技能会追加到此表格中。
@@ -37,9 +38,10 @@ npx skills add zxc7563598/skillbox@<技能名称>
 ```
 skillbox/
 ├── skills/
-│   ├── git-commit/                  # Git 提交信息生成
-│   ├── analyze-bill/                # 支付宝/微信账单分析
-│   └── mental-health-companion/     # 心理陪伴与情绪疏导
+│   ├── git-commit/                   # Git 提交信息生成
+│   ├── analyze-bill/                 # 支付宝/微信账单分析
+│   ├── think-council/                # 多角度讨论团
+│   └── mental-health-companion/      # 心理陪伴与情绪疏导
 ├── LICENSE
 └── README.md
 ```
