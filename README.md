@@ -27,6 +27,7 @@ npx skills add zxc7563598/skillbox@<技能名称>
 | 技能名称 | 一句话描述 | 安装命令 |
 |---------|-----------|---------|
 | [analyze-bill](skills/analyze-bill/) | 解析微信/支付宝账单文件，对帐单内容进行多维度分析 | `npx skills add zxc7563598/skillbox@analyze-bill` |
+| [composer-health-check](skills/composer-health-check/) | 对 PHP Composer 项目做全面健康审计，支持依赖安全漏洞扫描、过期依赖检查、PHP 版本升级阻塞分析和代码质量审查 | `npx skills add zxc7563598/skillbox@composer-health-check` |
 | [create-readme-zh](skills/create-readme-zh/) | 能够分析项目类型和内容，生成符合中文写作规范的专业 README.md 文档 | `npx skills add zxc7563598/skillbox@create-readme-zh` |
 | [git-commit](skills/git-commit/) | 理解代码改动意图，生成规范化的 Git 提交信息 | `npx skills add zxc7563598/skillbox@git-commit` |
 | [mental-health-companion](skills/mental-health-companion/) | 温暖、非评判的 AI 心理陪伴与情绪疏导 | `npx skills add zxc7563598/skillbox@mental-health-companion` |
@@ -40,6 +41,7 @@ npx skills add zxc7563598/skillbox@<技能名称>
 skillbox/
 ├── skills/
 │   ├── analyze-bill/                 # 支付宝/微信账单分析
+│   ├── composer-health-check/        # PHP Composer 项目健康检查
 │   ├── create-readme-zh/             # 中文 README 生成
 │   ├── git-commit/                   # Git 提交信息生成
 │   ├── mental-health-companion/      # 心理陪伴与情绪疏导
